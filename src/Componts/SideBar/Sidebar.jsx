@@ -140,7 +140,7 @@ const Sidebar = () => {
               openDelay={500}
             >
               <Link
-                to={"/auth"}
+                to={"/insta/auth"}
                 as={RouterLink}
                 display="flex"
                 justifyContent="center"
