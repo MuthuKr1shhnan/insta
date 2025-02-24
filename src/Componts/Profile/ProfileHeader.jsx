@@ -18,7 +18,7 @@ const ProfileHeader = () => {
         
       >
         <Avatar
-          src="/profilepic.png"
+          src="/insta/profilepic.png"
           name="As a Proggrammer"
           alt="profile pic"
         />

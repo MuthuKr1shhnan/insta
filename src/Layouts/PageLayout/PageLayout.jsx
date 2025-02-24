@@ -10,7 +10,7 @@ const PageLayout = ({ children }) => {
     <>
       <Flex>
         {/* sidebar on the left */}
-        { pathName.pathname !== "/auth" ? (
+        { pathName.pathname !== "/insta/auth" ? (
           <Box w={{base:"70px" ,md:"240px"}} >
             <Sidebar />
           </Box>

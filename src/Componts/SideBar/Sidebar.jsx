@@ -18,7 +18,7 @@ const Sidebar = () => {
     {
       icon: <HiOutlineHome size={25} style={{ strokeWidth: 2 }} />,
       text: "Home",
-      link: "/",
+      link: "/insta",
     },
     {
       icon: <SearchLogo />,
@@ -35,7 +35,7 @@ const Sidebar = () => {
     {
       icon: <Avatar size={"xs"} />,
       text: "Profile",
-      link: "/asaprogrammer",
+      link: "/insta/asaprogrammer",
     },
   ]);
 
@@ -56,7 +56,7 @@ const Sidebar = () => {
       <Flex direction="column" gap={10} w="full" h="full">
         {/* Instagram Logo */}
         <Link
-          to="/"
+          to="/insta"
           as={RouterLink}
           pl={2}
           display={{ base: "none", md: "block" }}
@@ -66,7 +66,7 @@ const Sidebar = () => {
           <InstagramLogo />
         </Link>
         <Link
-          to="/"
+          to="/insta"
           as={RouterLink}
           justifyContent="center"
           alignItems="center"
@@ -155,7 +155,7 @@ const Sidebar = () => {
             </Tooltip>
           ) : (
             <Link
-              to={"/auth"}
+              to={"/insta/auth"}
               as={RouterLink}
               display={{ base: "flex", md: "inline-flex" }}
               alignItems="center"

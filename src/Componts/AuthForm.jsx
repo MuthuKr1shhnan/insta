@@ -23,7 +23,7 @@ const AuthForm = () => {
       alert("Please Fill the all the fields");
       return;
     }
-    navigate("/");
+    navigate("/insta");
   };
  
   return (
@@ -31,7 +31,7 @@ const AuthForm = () => {
       <Box border={"1px solid gray"} borderRadius={4} padding={5}>
         <VStack spacing={4}>
           <Image
-            src="/logo.png"
+            src="/insta/logo.png"
             h={24}
             cursor={"pointer"}
             alt="Instagram Logo"
@@ -98,7 +98,7 @@ const AuthForm = () => {
             alignItems={"center"}
             cursor={"pointer"}
           >
-            <Image src="/google.png" w={5} alt="Google Logo" />
+            <Image src="/insta/google.png" w={5} alt="Google Logo" />
             <Text mx={"2"} color={"blue.500"}>
               Log In With Google
             </Text>

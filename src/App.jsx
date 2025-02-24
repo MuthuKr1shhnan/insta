@@ -9,9 +9,9 @@ function App() {
   return (
     <>
     <PageLayout><Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/auth" element={<AuthPage />} />
-        <Route path="/:username" element={<ProfilePage />} />
+        <Route path="/insta" element={<HomePage />} />
+        <Route path="/insta/auth" element={<AuthPage />} />
+        <Route path="/insta/:username" element={<ProfilePage />} />
       </Routes></PageLayout>
       
     </>

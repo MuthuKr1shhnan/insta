@@ -28,10 +28,10 @@ const SuggestedUsers = () => {
           See All
         </Text>
       </Flex>
-      <SuggestedUser  name="raju" followers="1000" avatar="/img4.png"/>
-      <SuggestedUser name="gopal" followers="1000" avatar="/img4.png" />
-      <SuggestedUser name="maya" followers="1000" avatar="/img4.png" />
-      <SuggestedUser name="sriman" followers="1000" avatar="/img4.png" />
+      <SuggestedUser  name="raju" followers="1000" avatar="/insta/img4.png"/>
+      <SuggestedUser name="gopal" followers="1000" avatar="/insta/img4.png" />
+      <SuggestedUser name="maya" followers="1000" avatar="/insta/img4.png" />
+      <SuggestedUser name="sriman" followers="1000" avatar="/insta/img4.png" />
       <Box
         alignSelf={"start"}
         fontSize={12}

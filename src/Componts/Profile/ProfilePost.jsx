@@ -98,7 +98,7 @@ const ProfilePost = ({ img }) => {
                 <Flex alignItems={"center"} justifyContent={"space-between"}>
                   <Flex alignItems={"center"} gap={4}>
                     <Avatar
-                      src="/profilepic.png"
+                      src="/insta/profilepic.png"
                       size={"sm"}
                       name="As a Programmer"
                     />
@@ -121,7 +121,7 @@ const ProfilePost = ({ img }) => {
                   <Comment
                     createdAt="1d ago"
                     username="asaprogrammer_"
-                    profilePic="/profilepic.png"
+                    profilePic="/insta/profilepic.png"
                     text={"Dummy images from unsplash"}
                   />
                   <Comment
